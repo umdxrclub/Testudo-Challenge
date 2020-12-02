@@ -5,6 +5,11 @@ using UnityEngine.UI.Extensions;
 
 public class MainMenu : SimpleMenu<MainMenu>
 {
+    public void ShowInfoPage()
+    {
+        InfoPage.Show();
+    }
+
     public void LoadARScene()
     {
         SceneManager.LoadScene("ARScene");
