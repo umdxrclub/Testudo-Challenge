@@ -5,6 +5,11 @@ using UnityEngine.UI.Extensions;
 
 public class MainMenu : SimpleMenu<MainMenu>
 {
+    public void LoadARScene()
+    {
+        SceneManager.LoadScene("ARScene");
+    }
+
     public void SendBugReportEmail()
     {
         string email = "umd.xr.club@gmail.com";
