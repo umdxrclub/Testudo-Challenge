@@ -155,6 +155,7 @@ MonoBehaviour:
   menuScreens:
   - {fileID: 7577543656839702431, guid: cab3fd042aeabd94d8941c775e85e008, type: 3}
   - {fileID: 1467747587331896303, guid: ace83c0586375e94bbc22f2ffbf846d5, type: 3}
+  - {fileID: 8903097860573001344, guid: 7926a66f1f5540d45a1e20096b30a2d2, type: 3}
   startScreen: 0
 --- !u!4 &264567410
 Transform:

@@ -10,6 +10,11 @@ public class MainMenu : SimpleMenu<MainMenu>
         InfoPage.Show();
     }
 
+    public void ShowCredits()
+    {
+        Credits.Show();
+    }
+
     public void LoadARScene()
     {
         SceneManager.LoadScene("ARScene");
