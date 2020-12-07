@@ -241,6 +241,7 @@ public class UIManager : MonoBehaviour
                 {
                     m_FadedOff = true;
                     m_AnimationManager.FadeOffCurrentUI();
+                    PlaceTestudo.Show();
                 }
             }
         }
