@@ -303,6 +303,7 @@ MonoBehaviour:
   menuScreens:
   - {fileID: 6037680031885280237, guid: f46e5403008bf2348a06a6e2072e61a2, type: 3}
   - {fileID: 5070166843385620555, guid: 40f545706082ab74f9af4c35d125494b, type: 3}
+  - {fileID: 3246605549899767094, guid: 24da18cd0d6be724687a1dd83a591b90, type: 3}
   startScreen: 0
 --- !u!4 &1288757567
 Transform:

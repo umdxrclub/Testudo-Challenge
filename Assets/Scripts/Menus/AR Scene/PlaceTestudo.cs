@@ -115,7 +115,7 @@ public class PlaceTestudo : SimpleMenu<PlaceTestudo>
         GameObject objToPlace = isTestudoOnBlock ? testudoOnBlockPrefab : testudoPrefab;
         Instantiate(objToPlace, currentPreviewObject.transform.position, currentPreviewObject.transform.rotation);
         Destroy(currentPreviewObject);
-        // Show Next Page
+        ARMenu.Show();
     }
 
     public override void OnBackPressed()
