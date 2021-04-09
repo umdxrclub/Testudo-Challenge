@@ -1,12 +1,14 @@
 {
   "dependencies": {
     "com.unity.addressables": {
-      "version": "1.16.16",
-      "depth": 0,
+      "version": "1.17.15",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.scriptablebuildpipeline": "1.15.2",
+        "com.unity.scriptablebuildpipeline": "1.17.0",
         "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.modules.unitywebrequest": "1.0.0",
         "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
       },
@@ -71,11 +73,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.localization": {
-      "version": "0.10.0-preview",
+      "version": "0.11.0-preview",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.addressables": "1.16.13"
+        "com.unity.addressables": "1.17.15"
       },
       "url": "https://packages.unity.com"
     },
@@ -107,8 +109,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.scriptablebuildpipeline": {
-      "version": "1.15.2",
-      "depth": 1,
+      "version": "1.17.0",
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -188,39 +190,39 @@
       "url": "https://registry.npmjs.org"
     },
     "com.unity.xr.arcore": {
-      "version": "4.1.5",
+      "version": "4.1.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.arsubsystems": "4.1.5",
+        "com.unity.xr.arsubsystems": "4.1.7",
         "com.unity.xr.management": "4.0.1",
         "com.unity.modules.androidjni": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arfoundation": {
-      "version": "4.1.5",
+      "version": "4.1.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.arsubsystems": "4.1.5",
+        "com.unity.xr.arsubsystems": "4.1.7",
         "com.unity.xr.management": "4.0.1"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arkit": {
-      "version": "4.1.5",
+      "version": "4.1.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.xr.arsubsystems": "4.1.5",
+        "com.unity.xr.arsubsystems": "4.1.7",
         "com.unity.xr.management": "4.0.1"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arsubsystems": {
-      "version": "4.1.5",
+      "version": "4.1.7",
       "depth": 1,
       "source": "registry",
       "dependencies": {
