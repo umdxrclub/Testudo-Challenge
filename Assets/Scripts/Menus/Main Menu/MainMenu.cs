@@ -5,6 +5,17 @@ using UnityEngine.UI.Extensions;
 
 public class MainMenu : SimpleMenu<MainMenu>
 {
+    public GameObject ButtonsContainer;
+    public GameObject ARCoreDisclosure;
+
+    private void Start()
+    {
+#if UNITY_ANDROID
+        ARCoreDisclosure.SetActive(true);
+        ButtonsContainer.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 225);
+#endif
+    }
+
     public void ShowInfoPage()
     {
         InfoPage.Show();
