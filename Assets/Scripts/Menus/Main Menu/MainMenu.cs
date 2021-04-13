@@ -34,7 +34,7 @@ public class MainMenu : SimpleMenu<MainMenu>
     public void SendBugReportEmail()
     {
         string email = "umd.xr.club@gmail.com";
-        string subject = MyEscapeURL("Found bug in Testudo's Altar App");
+        string subject = MyEscapeURL("Found bug in Testudo-To-Go App");
         Application.OpenURL("mailto:" + email + "?subject=" + subject);
     }
 
