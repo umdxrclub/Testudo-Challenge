@@ -3,12 +3,45 @@ using System.Collections;
 using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using UnityEngine.UI.Extensions;
 
 public class ARMenu : SimpleMenu<ARMenu>
 {
+    [Header("New Offering Button")]
+    public GameObject outerHighlight;
+    private IEnumerator enableHighlightCoroutine;
 
-	public void TakeScreenshotAndShare()
+    [Header("Capture and Share Button")]
+    public Image shareIcon;
+    public Sprite androidIcon;
+    public Sprite iosIcon;
+
+    private void Start()
+    {
+        enableHighlightCoroutine = EnableHighlightCoroutine();
+        StartCoroutine(enableHighlightCoroutine);
+
+#if UNITY_ANDROID
+        shareIcon.sprite = androidIcon;
+#elif UNITY_IOS
+        shareIcon.sprite = iosIcon;
+#endif
+    }
+
+    private IEnumerator EnableHighlightCoroutine()
+    {
+        yield return new WaitForSeconds(5);
+        outerHighlight.SetActive(true);
+    }
+
+    public void DisableHighlight()
+    {
+        StopCoroutine(enableHighlightCoroutine);
+        outerHighlight.SetActive(false);
+    }
+
+    public void TakeScreenshotAndShare()
 	{
 		StartCoroutine(TakeScreenshotAndShareCoroutine());
 	}
