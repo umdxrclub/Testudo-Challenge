@@ -68,6 +68,11 @@ public class ARMenu : SimpleMenu<ARMenu>
         new NativeShare().AddFile(filePath).SetText(message).Share();
     }
 
+    public void ShowSelectOfferingScreen()
+    {
+        SelectOffering.Show();
+    }
+
 	public void LoadMainMenuScene()
     {
         SceneManager.LoadScene("MainMenu");

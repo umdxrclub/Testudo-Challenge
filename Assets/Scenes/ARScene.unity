@@ -304,6 +304,7 @@ MonoBehaviour:
   - {fileID: 6037680031885280237, guid: f46e5403008bf2348a06a6e2072e61a2, type: 3}
   - {fileID: 5070166843385620555, guid: 40f545706082ab74f9af4c35d125494b, type: 3}
   - {fileID: 3246605549899767094, guid: 24da18cd0d6be724687a1dd83a591b90, type: 3}
+  - {fileID: 5465030140555830920, guid: 6fbfa7bf5c30cb643a2567a2d93e61df, type: 3}
   startScreen: 0
 --- !u!4 &1288757567
 Transform:
@@ -470,6 +471,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &2056035920
@@ -593,6 +595,7 @@ MonoBehaviour:
   m_StopNaN: 0
   m_Dithering: 0
   m_ClearDepth: 1
+  m_AllowXRRendering: 1
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
