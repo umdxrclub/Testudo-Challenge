@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "com.unity.addressables": {
-      "version": "1.17.15",
-      "depth": 1,
+      "version": "1.17.17",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.scriptablebuildpipeline": "1.17.0",
@@ -110,7 +110,7 @@
     },
     "com.unity.scriptablebuildpipeline": {
       "version": "1.17.0",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -153,7 +153,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.4",
+      "version": "3.0.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
