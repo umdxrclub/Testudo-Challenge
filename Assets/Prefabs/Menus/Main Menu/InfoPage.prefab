@@ -138,6 +138,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &3044725087329890132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -603,6 +604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -632,7 +634,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 4336198124560278130}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.22316428
+  m_Size: 0.30111143
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -961,6 +963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 3
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -1147,7 +1150,7 @@ MonoBehaviour:
     with the COVID-19 pandemic keeping thousands of students away from campus and
     making it unsafe for others to touch the same surfaces, students are in danger
     of failing their exams and feeling Testudo's wrath! Luckily, the XR Club has
-    come to the rescue with the Testudo To Go app: a community-wide open-source initiative
+    come to the rescue with the Testudo-To-Go app: a community-wide open-source initiative
     to create an augmented reality app so that students can bring Testudo into their
     own homes!\r"
   m_isRightToLeft: 0

@@ -1434,8 +1434,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Testudo-To-Go
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2d873bd0ac9a9ee4d80c35c97f3634a3, type: 2}
-  m_sharedMaterial: {fileID: -2747094252142188472, guid: 2d873bd0ac9a9ee4d80c35c97f3634a3, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 64cc330981f40dd42ad408d3e9509368, type: 2}
+  m_sharedMaterial: {fileID: 3137272634974637853, guid: 64cc330981f40dd42ad408d3e9509368, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1465,7 +1465,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
