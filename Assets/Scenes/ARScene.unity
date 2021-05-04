@@ -512,6 +512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2136147889}
   - component: {fileID: 2136147884}
+  - component: {fileID: 2136147891}
   - component: {fileID: 2136147885}
   - component: {fileID: 2136147888}
   - component: {fileID: 2136147887}
@@ -672,3 +673,11 @@ MonoBehaviour:
   m_HumanSegmentationDepthMode: 1
   m_EnvironmentDepthMode: 2
   m_OcclusionPreferenceMode: 0
+--- !u!81 &2136147891
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136147883}
+  m_Enabled: 1

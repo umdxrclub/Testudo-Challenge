@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
+    public bool Muted { get; private set; }
+    private AudioListener listener;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         if (Instance == null)
         {
@@ -17,11 +19,33 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        listener = FindObjectOfType<AudioListener>();
+        SceneManager.sceneLoaded += OnSceneLoaded;
+
+        if (PlayerPrefs.HasKey("volume"))
+        {
+            Muted = PlayerPrefs.GetInt("volume") == 0;
+        }
+        else
+        {
+            PlayerPrefs.SetInt("volume", 1);
+            Muted = false;
+        }
+
+        listener.enabled = !Muted;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnSceneLoaded(Scene arg0, LoadSceneMode arg1)
     {
-        
+        listener = FindObjectOfType<AudioListener>();
+        listener.enabled = !Muted;
+    }
+
+    public void ToggleSound()
+    {
+        Muted = !Muted;
+        listener.enabled = !Muted;
+        PlayerPrefs.SetInt("volume", Muted ? 0 : 1);
     }
 }

@@ -536,7 +536,7 @@ GameObject:
   - component: {fileID: 2052198244730178570}
   - component: {fileID: 2052198244730178571}
   m_Layer: 5
-  m_Name: Settings Button
+  m_Name: Toggle Audio Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -643,7 +643,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2052198245397131923}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7577543656839702431}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: ToggleAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2052198244891640748
 GameObject:
   m_ObjectHideFlags: 0
@@ -1158,6 +1170,9 @@ MonoBehaviour:
   DestroyWhenClosed: 1
   DisableMenusUnderneath: 1
   ButtonsContainer: {fileID: 2052198245030447133}
+  audioIconHolder: {fileID: 2052198245397131923}
+  volumeIcon: {fileID: 21300000, guid: 01dc77c515acc5c4f8af7695681cb758, type: 3}
+  mutedIcon: {fileID: 21300000, guid: ad07f65ec146fed48a5b2fa941a26bf1, type: 3}
   ARCoreDisclosure: {fileID: 2052198245697698462}
 --- !u!1 &2052198245152677091
 GameObject:
@@ -1357,7 +1372,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5ec88f34e9df3744da705048a41d0afb, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
