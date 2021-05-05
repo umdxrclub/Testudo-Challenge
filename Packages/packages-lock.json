@@ -164,7 +164,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.5.4",
+      "version": "1.5.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -271,7 +271,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "3776f3d47e4ca0086c44c2c1b2beec6c2a8f8e43"
+      "hash": "29d91ba26749e12548e60d0cb84c973320df6f8b"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
