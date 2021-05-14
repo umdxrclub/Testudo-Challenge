@@ -427,6 +427,7 @@ RectTransform:
   m_Children:
   - {fileID: 8426398501795514439}
   - {fileID: 2452412066804210681}
+  - {fileID: 3442015008797322527}
   - {fileID: 2276989235421019592}
   - {fileID: 5036353187618992726}
   m_Father: {fileID: 7918001289906306675}
@@ -926,8 +927,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 409, y: -405.32}
-  m_SizeDelta: {x: 818, y: 0}
+  m_AnchoredPosition: {x: 446.92645, y: -405.32}
+  m_SizeDelta: {x: 893.8529, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3168526301431230095
 CanvasRenderer:
@@ -2439,7 +2440,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 7918001290525522852}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.087115735
+  m_Size: 0.071431346
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3361,6 +3362,120 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
   m_PrefabInstance: {fileID: 1436941404289305148}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2049316558643431456
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8971091332703877547}
+    m_Modifications:
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4644313717267001236, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_text
+      value: '<b><u>Name:</u></b> Unity UI Extensions
+
+        <b><u>Source:</u></b>
+        Bitbucket
+
+        <b><u>License:</u></b> <link="https://bitbucket.org/UnityUIExtensions/unity-ui-extensions/src/release/LICENSE.md"><color=#FFD200>BSD-3-Clause</color></link>
+
+        <b><u>Link:</u></b>
+        <link="https://bitbucket.org/UnityUIExtensions/unity-ui-extensions/"><color=#FFD200>https://bitbucket.org/UnityUIExtensions/unity-ui-extensions/</color></link>'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8277977003758081143, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+      propertyPath: m_Name
+      value: UI Extensions Credit (TMP)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+--- !u!224 &3442015008797322527 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
+  m_PrefabInstance: {fileID: 2049316558643431456}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2273113669900978704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3487,7 +3602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4778,7 +4893,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3725845665979950399, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4869,7 +4984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8277977003758081143, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
       propertyPath: m_Name
-      value: Native Share Credit (TMP) (1)
+      value: Android Status Bar Plugin Credit (TMP)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f88abb688dbbf454e86f14a86dad015c, type: 3}
